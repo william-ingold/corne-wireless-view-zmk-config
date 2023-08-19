@@ -35,9 +35,9 @@
 //                    | GUI | LWR | SPC |   | ENT |  ;   |     |
                         label = "Coding";
                         bindings = <
-   &trans &kp ESC &kp LT &kp DLLR &kp GT &kp TILDE &kp CARET &kp LBKT  &kp  MINUS    &kp RBKT   &kp  COLON   &kp DEL
-   &trans &kp AT &kp LPAR &kp DQT &RPAR &kp HASH &kp PRCNT   &kp LBRC &kp EQUAL &kp RBRC     &kp BKSP   &kp PIPE
-   &trans &kp EXCL &kp STAR &kp COLON &kp AMPS &kp HOME   &kp END &kp PLUS &kp UNDER &kp GRAVE &kp FSLH &kp CAPS
+   &trans &kp ESC  &kp LT   &kp DLLR  &kp GT   &kp TILDE    &kp CARET &kp LBKT  &kp  MINUS  &kp RBKT   &kp COLON  &kp DEL
+   &trans &kp AT   &kp LPAR &kp DQT   &kp RPAR &kp HASH     &kp PRCNT &kp LBRC  &kp  EQUAL  &kp RBRC   &kp BKSP   &kp PIPE
+   &trans &kp EXCL &kp STAR &kp COLON &kp AMPS &kp HOME     &kp END   &kp PLUS  &kp UNDER   &kp GRAVE  &kp FSLH   &kp CAPS
                   &kp LGUI &mo 1 &kp SPACE   &kp RET &kp SEMI &trans
                         >;
                 };
@@ -53,7 +53,7 @@
                         bindings = <
    &kp  TAB  &kp PLUS  &kp N7 &kp N8 &kp N9 &kp PRCNT    &kp CARET &kp AMPS  &kp UP    &kp STAR  &kp RPAR  &trans
    &kp LCTRL &kp EQUAL &kp N4 &kp N5 &kp N6 &kp HOME     &kp END   &kp LEFT  &kp DOWN  &kp RIGHT &kp COLON &kp FSLH
-   &kp LSHFT &kp MINUS &kp N1 &kp N2 &kp N3 &kp N0       &kp PLUS  &kp LC(C) &kp LC(V) &kp LC(X) &kp LC(Z)
+   &kp LSHFT &kp MINUS &kp N1 &kp N2 &kp N3 &kp N0       &kp PLUS  &kp LC(C) &kp LC(V) &kp LC(X) &kp LC(Z) &trans
                     	      &kp LGUI &trans &kp SPACE    &kp RET   &trans    &trans
                         >;
                 };
@@ -66,10 +66,10 @@
 //                        | GUI |     | SPC |    | ENT  |      |      |
                         label = "Misc";
                         bindings = <
-   &kp F1     &kp F2       &kp F3       &kp F4       &kp F5       &kp F6         &kp F7     &kp F8         &kp F9    &kp F10 &    kp F11 &kp F12
+   &kp F1     &kp F2       &kp F3       &kp F4       &kp F5       &kp F6         &kp F7     &kp F8         &kp F9       &kp F10    &kp F11  &kp F12
    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp C_PREV &kp C_VOL_DN   &kp C_VOL_UP &kp C_NEXT &kp C_PP &trans
-   &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans   &kp C_RW   &C_FF &trans    &trans &trans
-                          	            &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp trans
+   &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans     &kp C_RW       &kp C_FF     &trans     &trans   &trans
+                          	            &kp LGUI     &trans       &kp SPACE      &kp RET    &trans         &kp trans
                         >;
                 };
 

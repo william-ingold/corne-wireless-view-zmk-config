@@ -32,12 +32,12 @@
 // |  TAB | ESC |  <  |  $  |  >  |  ~  |   |  ^  |  [   |  -  |  ]  |  :   | DEL  |
 // | CTRL |  @  |  (  |  "  |  )  |  #  |   |  %  |  {   |  =  |  }  | BKSP |  |   |
 // | SHFT |  !  |  *  |  :  |  &  |HOME |   | END |  +   |  _  |  `  |  \   | CAPS |
-//                    | GUI | LWR | SPC |   | ENT |  ;   | ALT |
+//                    | GUI | LWR | SPC |   | ENT |  ;   |     |
                         label = "Coding";
                         bindings = <
-   &kp TAB   &kp ESC &kp LT &kp DLR &kp GT &kp TILDE &kp CARET &kp LBKT  &kp  MINUS    &kp RBKT   &kp  COLON   &kp DEL
-   &kp LCTRL &kp AT &kp LPAR &kp DQT &RPAR &kp HASH &kp PRCNT   &kp LBRC &kp EQUAL &kp RBRC     &kp BKSP   &kp PIPE
-   &kp LSHFT &kp EXCL &kp STAR &kp COLON &kp AMPS &kp HOME   &kp END &kp PLUS &kp UNDER &kp GRAVE &kp FSLH &kp CAPS
+   &trans &kp ESC &kp LT &kp DLLR &kp GT &kp TILDE &kp CARET &kp LBKT  &kp  MINUS    &kp RBKT   &kp  COLON   &kp DEL
+   &trans &kp AT &kp LPAR &kp DQT &RPAR &kp HASH &kp PRCNT   &kp LBRC &kp EQUAL &kp RBRC     &kp BKSP   &kp PIPE
+   &trans &kp EXCL &kp STAR &kp COLON &kp AMPS &kp HOME   &kp END &kp PLUS &kp UNDER &kp GRAVE &kp FSLH &kp CAPS
                   &kp LGUI &mo 1 &kp SPACE   &kp RET &kp SEMI &trans
                         >;
                 };
